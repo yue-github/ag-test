@@ -1,0 +1,12 @@
+ <ul>
+ 	<li>{{address.name}}</li>
+ </ul>
+ <ul>
+ 	<li *ngFor="let item of arr">{{item.name}}</li>
+ </ul>
+
+<button (click)="doSome(value33)">click</button>
+<input type="text" #value33 [(ngModel)]='ngM' name="ngM">
+<div>{{ngM}}</div>
+<div *ngIf="isBoo">yes click me</div>
+<div (click)='edit()'>1223</div>
